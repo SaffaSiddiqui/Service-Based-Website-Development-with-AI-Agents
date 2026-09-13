@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse services and submit a service request.">
+  <title>Kindred Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Kindred Services home">
+        <span class="brand-mark">K</span>
+        <span>kindred<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">Menu</button>
+      <nav id="main-navigation" class="main-nav" aria-label="Main navigation">
+        <a href="#home" data-nav>Home</a>
+        <a href="#services" data-nav>Services</a>
+        <a href="#about" data-nav>About &amp; Contact</a>
+        <a class="nav-cta" href="#services">Find a service <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home"><span class="brand-mark">K</span><span>kindred<span class="brand-dot">.</span></span></a>
+        <p>Thoughtful services for the things that matter.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Browse services</a>
+        <a href="#about">About &amp; contact</a>
+      </div>
+      <p class="footer-note">A simple way to get started.</p>
+    </div>
+  </footer>
+</body>
+</html>
